@@ -27,13 +27,13 @@ function Login() {
         </Link>
       </div>
       <div className="login google">
-        <span>Or login with</span>
+        <span style={{ margin: "10px" }}>Or</span>
         <button className="googleButton">
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/512px-Google_%22G%22_Logo.svg.png"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/800px-Google_%22G%22_logo.svg.png"
             alt="Google Logo"
           />
-          Google
+          Login with Google
         </button>
       </div>
     </div>
