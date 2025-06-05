@@ -61,3 +61,29 @@
     text-decoration: underline;
   }
 }
+.googleButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 600px;
+  margin: 10px auto;
+
+  padding: 15px;
+  font-size: 16px;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #f0f0f0;
+  }
+
+  img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+}

@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../components/Header";
-import "./login.css";
+import "./Login.css";
 import { Link } from "react-router-dom";
 function Login() {
   return (
@@ -25,6 +25,16 @@ function Login() {
         <Link to="/signup" className="signupText">
           Sign Up
         </Link>
+      </div>
+      <div className="login google">
+        <span style={{ margin: "10px" }}>Or</span>
+        <button className="googleButton">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/800px-Google_%22G%22_logo.svg.png"
+            alt="Google Logo"
+          />
+          Login with Google
+        </button>
       </div>
     </div>
   );
