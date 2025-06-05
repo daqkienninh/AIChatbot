@@ -26,6 +26,16 @@ function Login() {
           Sign Up
         </Link>
       </div>
+      <div className="login google">
+        <span>Or login with</span>
+        <button className="googleButton">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/512px-Google_%22G%22_Logo.svg.png"
+            alt="Google Logo"
+          />
+          Google
+        </button>
+      </div>
     </div>
   );
 }
